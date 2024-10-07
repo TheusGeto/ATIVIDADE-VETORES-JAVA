@@ -24,6 +24,5 @@ public class Main {
             System.out.print(vetor[i] + " ");
         }
         
-        scanner.close();
     }
 }
