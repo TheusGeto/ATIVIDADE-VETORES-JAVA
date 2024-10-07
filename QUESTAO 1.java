@@ -10,7 +10,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         
         // Leitura dos 20 numeros e coloca no vetor
-        System.out.println("Digite 20 números inteiros:");
+        System.out.println("Digite 20 números :");
         for (int i = 0; i < 20; i++) {
             vetor[i] = scanner.nextInt();
         }
@@ -32,6 +32,5 @@ public class Main {
         // Exibe a quantidade de ímpares
         System.out.println("Quantidade de valores ímpares: " + contadorImpares);
         
-        scanner.close();
     }
 }
